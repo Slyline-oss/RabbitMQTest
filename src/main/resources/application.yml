@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: localhost
+    stream:
+      username: guest
+      password: guest
+    template:
+      default-receive-queue: hello
+    port: 5672
+
